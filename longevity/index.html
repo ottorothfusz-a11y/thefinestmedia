@@ -1,0 +1,201 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Longevity Hub × The Finest Media</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<script>(function(){var p=location.pathname,l=p.split("/").pop();if(location.protocol!=="file:"&&location.hostname.indexOf("claude")<0&&l&&l.indexOf(".")<0){var b=document.createElement("base");b.href=p+"/";document.head.appendChild(b)}})()</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: editorial partnership page — hero, day/night idea with partner references, the package, network, work, founder. Single dark theme on purpose. */
+:root{--bg:#0a0a0a;--bg2:#141413;--ink:#f2eee4;--ink2:#cfc9bc;--ink3:#97917f;--line:rgba(242,238,228,.12);--acc:#8fb7e8;
+--serif:"EB Garamond",Georgia,"Times New Roman",serif;--sans:Inter,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans);margin:0;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img,video{max-width:100%}a{color:inherit}a:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.w{max-width:1120px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.ey{font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+h1,h2{font-family:var(--serif);font-weight:400;margin:0;text-wrap:balance}h1 em,h2 em{font-style:italic}
+section{padding-block:80px}
+section h2{font-size:clamp(34px,4.6vw,56px);line-height:1.04;margin-top:14px}
+.lead{color:var(--ink2);max-width:58ch;margin:16px 0 0}
+
+.hero{position:relative;min-height:92svh;display:flex;align-items:flex-end;overflow:hidden}
+.hero>img,.hero>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,.5),rgba(10,10,10,0) 30%,rgba(10,10,10,.55) 64%,#0a0a0a)}
+.hi{position:relative;z-index:1;width:100%;padding-block:40px 56px}
+.brand{font:600 12px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:#fff}.brand i{font-style:normal;opacity:.55;margin:0 8px}
+.when{margin-top:10px;font-size:13px;letter-spacing:.06em;color:rgba(255,255,255,.75)}
+.hero h1{font-size:clamp(54px,9.5vw,124px);line-height:.95;margin-top:24px;letter-spacing:-.015em}
+.hero p{max-width:480px;color:var(--ink2);font-size:clamp(16px,1.4vw,18px);margin:18px 0 0}
+.ref{position:absolute;right:16px;top:16px;z-index:1;font-size:11px;color:rgba(255,255,255,.7);background:rgba(0,0,0,.45);padding:5px 10px;border-radius:999px}
+.cta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);text-decoration:none;border-radius:999px;padding:13px 20px;font:600 14px var(--sans)}
+.cta span{opacity:.55}.cta.g{background:transparent;color:var(--ink);border:1px solid var(--line)}
+
+.dn{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:40px}
+.dn figure{margin:0;position:relative;aspect-ratio:4/5;border-radius:16px;overflow:hidden;background:var(--bg2)}
+.dn img,.dn video{width:100%;height:100%;object-fit:cover;display:block}
+.dn figcaption{position:absolute;left:0;right:0;bottom:0;padding:60px 20px 18px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff}
+.dn figcaption b{display:block;font:italic 400 32px/1 var(--serif)}.dn figcaption span{display:block;margin-top:8px;font-size:14px;color:rgba(255,255,255,.8);max-width:34ch}
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
+.strip img,.strip video{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;display:block}
+.note{margin-top:12px;font-size:12.5px;color:var(--ink3)}
+
+.pkg{margin-top:40px;border-top:1px solid var(--line)}
+.pkg>div{display:grid;grid-template-columns:56px 1fr auto;gap:18px;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--line)}
+.pkg i{font-style:normal;color:var(--acc);font:600 12px var(--sans);letter-spacing:.14em}
+.pkg b{font:400 clamp(22px,2.4vw,28px)/1.15 var(--serif)}.pkg p{margin:6px 0 0;color:var(--ink3);font-size:14.5px}
+.pkg>div>span{font-size:13px;color:var(--ink2);white-space:nowrap}
+
+.big{font:600 clamp(80px,14vw,170px)/.9 var(--sans);letter-spacing:-.055em;margin-top:18px}.big small{font-size:.42em;vertical-align:.95em}
+.bigl{font-family:var(--serif);font-size:clamp(21px,2.3vw,27px);color:var(--ink2);margin-top:12px}
+.accs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:36px}
+.accs a{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:20px 10px 16px;border:1px solid var(--line);border-radius:16px;background:var(--bg2);text-decoration:none;transition:border-color .25s}
+.accs a:hover{border-color:rgba(242,238,228,.35)}
+.accs img{width:60px;height:60px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+.accs b{font-weight:600;font-size:14px}.accs span{font-size:13px;color:var(--ink3);margin-top:-6px}
+
+.work{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:40px}
+.work figure{margin:0;position:relative;aspect-ratio:9/16;border-radius:14px;overflow:hidden;background:var(--bg2)}
+.work video,.work img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.work figcaption{position:absolute;left:0;right:0;bottom:0;padding:44px 14px 12px;background:linear-gradient(transparent,rgba(0,0,0,.75));color:#fff;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.work figcaption b{font:italic 400 20px var(--serif)}.work figcaption span{font-size:12px;color:rgba(255,255,255,.75)}
+
+.ask{border:1px solid var(--line);border-radius:20px;background:var(--bg2);padding:clamp(26px,4vw,44px);margin-top:8px}
+.ask h2{margin-top:10px}.ask .lead{margin-top:12px}
+.fd{display:flex;align-items:center;gap:16px;margin-top:28px;flex-wrap:wrap}
+.fd img{width:56px;height:56px;border-radius:50%;object-fit:cover}
+.fd b{display:block;font-weight:600}.fd span{color:var(--ink3);font-size:14px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+footer{padding-block:34px;color:var(--ink3);font-size:12.5px;border-top:1px solid var(--line);margin-top:56px}
+
+.rv{opacity:0;transform:translateY(14px);transition:opacity .9s ease,transform .9s ease}.rv.in{opacity:1;transform:none}
+.sw::-webkit-scrollbar{display:none}
+@media (max-width:900px){.accs{grid-template-columns:repeat(5,minmax(128px,1fr));overflow-x:auto;scroll-snap-type:x mandatory;margin-left:-20px;margin-right:-20px;padding:0 20px 4px;scroll-padding:0 20px;scrollbar-width:none}.accs a{scroll-snap-align:start}}
+@media (max-width:760px){
+section{padding-block:56px}.hero{min-height:86svh}.hi{padding-block:28px 40px}
+.dn,.work,.strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin-left:-20px;margin-right:-20px;padding:0 20px 4px;scroll-padding:0 20px;scrollbar-width:none}
+.dn figure{flex:0 0 84%;scroll-snap-align:start}.work figure{flex:0 0 62%;scroll-snap-align:start}.strip>*{flex:0 0 42%;width:42%;min-width:0;scroll-snap-align:start}
+.pkg>div{grid-template-columns:40px 1fr}.pkg>div>span{grid-column:2;white-space:normal}.brand span{display:block;margin-top:8px}.brand i{display:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero>video{display:none}.rv{opacity:1;transform:none;transition:none}}
+.ideas{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:36px}
+.ideas figure{margin:0}
+.ideas img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;display:block}
+.ideas figcaption{margin-top:12px}.ideas i{font-style:normal;font:600 11px var(--sans);letter-spacing:.14em;color:var(--acc)}
+.ideas b{display:block;font:400 21px/1.15 var(--serif);margin-top:4px}.ideas span{display:block;font-size:13.5px;color:var(--ink3);margin-top:4px}
+.setup{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:32px}
+.setup div{border:1px solid var(--line);border-radius:16px;background:var(--bg2);padding:22px 22px 20px}
+.setup b{font:400 24px var(--serif)}.setup p{margin:8px 0 0;color:var(--ink2);font-size:15px}
+@media (max-width:760px){.ideas{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin-left:-20px;margin-right:-20px;padding:0 20px 4px;scroll-padding:0 20px;scrollbar-width:none}.ideas::-webkit-scrollbar{display:none}.ideas figure{flex:0 0 64%;scroll-snap-align:start}.setup{grid-template-columns:1fr}}
+.hero:after{background:linear-gradient(180deg,rgba(10,10,10,.45),rgba(10,10,10,.1) 25%,rgba(10,10,10,.75) 55%,#0a0a0a)}
+</style>
+</head><body>
+
+<header class="hero">
+  <img src="ref-icepod.jpg" alt="" style="object-position:50% 35%">
+  <span class="ref">Moodboard · imagery by @longevityhubdubai</span>
+  <div class="hi w">
+    <div class="brand">The Finest Media <i>×</i> <span>Longevity Hub Dubai</span></div>
+    <div class="when">Dubai — 16 to 24 November 2026</div>
+    <h1>Longevity, <em>captured.</em></h1>
+    <p>A first content idea for Longevity Hub: what we'd love to capture, and how.</p>
+  </div>
+</header>
+
+<section class="w">
+  <div class="rv">
+    <span class="ey">Ideation</span>
+    <h2>What we'd love <em>to capture.</em></h2>
+    <p class="lead">A moodboard, not our work yet. All imagery below is from @longevityhubdubai, used to show the direction. The final content would be shot by us, on location.</p>
+  </div>
+  <div class="ideas rv">
+    <figure><img src="ref-towers.jpg" alt="" loading="lazy"><figcaption><i>01</i><b>The arrival</b><span>One Za'abeel, golden hour, the walk in.</span></figcaption></figure>
+    <figure><img src="ref-cryo.jpg" alt="" loading="lazy"><figcaption><i>02</i><b>Cryo</b><span>Blue light, cold air, the moment the door opens.</span></figcaption></figure>
+    <figure><img src="ref-bed.jpg" alt="" loading="lazy"><figcaption><i>03</i><b>Treatments</b><span>Only if you're open to it. Calm, discreet, no claims.</span></figcaption></figure>
+    <figure><img src="ref-supps.jpg" alt="" loading="lazy"><figcaption><i>04</i><b>The supplement line</b><span>Clean, high-end product visuals for ads and socials.</span></figcaption></figure>
+    <figure><img src="ref-carafes.jpg" alt="" loading="lazy"><figcaption><i>05</i><b>The quiet in between</b><span>Details, textures, the calm of the space.</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="w" style="padding-top:0">
+  <div class="rv">
+    <span class="ey">The setup</span>
+    <h2>iPhone <em>&amp; a professional camera.</em></h2>
+  </div>
+  <div class="setup rv">
+    <div><b>Professional camera</b><p>Cinematic reels and stills. Our cameraman shoots the experience, the space and the product.</p></div>
+    <div><b>iPhone</b><p>Native, in-the-moment content for stories and our pages. Fast and unobtrusive.</p></div>
+  </div>
+</section>
+
+<section class="w" style="padding-top:0">
+  <div class="rv">
+    <span class="ey">What you'd get</span>
+    <h2>One shoot, <em>a full content package.</em></h2>
+  </div>
+  <div class="pkg rv">
+    <div><i>01</i><div><b>Collab reel</b><p>On one of our lifestyle accounts, featuring and tagging Longevity Hub Dubai.</p></div><span>Our network</span></div>
+    <div><i>02</i><div><b>Experience content</b><p>Edited reels, clips and stills of the Hub, for your own channels.</p></div><span>Yours to use</span></div>
+    <div><i>03</i><div><b>Product creatives</b><p>High-end AI creatives of your supplement line, campaign-ready.</p></div><span>Ads &amp; socials</span></div>
+    <div><i>04</i><div><b>Stories</b><p>Story moments on the day, tagged.</p></div><span>Same day</span></div>
+  </div>
+</section>
+
+<section class="w" style="padding-top:0">
+  <div class="rv">
+    <span class="ey">The network</span>
+    <div class="big">4.8M<small>+</small></div>
+    <div class="bigl">combined followers across the world, on our luxury lifestyle accounts.</div>
+  </div>
+  <div class="accs rv">
+    <a href="https://www.instagram.com/heritageclass" target="_blank" rel="noopener"><img src="ig-heritageclass.jpg" alt=""><b>heritageclass</b><span>1.2M</span></a>
+    <a href="https://www.instagram.com/justlavish" target="_blank" rel="noopener"><img src="ig-justlavish.jpg" alt=""><b>justlavish</b><span>1M</span></a>
+    <a href="https://www.instagram.com/clasysociety" target="_blank" rel="noopener"><img src="ig-a1.jpg" alt=""><b>clasysociety</b><span>1M</span></a>
+    <a href="https://www.instagram.com/intensevalue" target="_blank" rel="noopener"><img src="ig-intensevalue.jpg" alt=""><b>intensevalue</b><span>957K</span></a>
+    <a href="https://www.instagram.com/luxorignite" target="_blank" rel="noopener"><img src="ig-luxorignite.jpg" alt=""><b>luxorignite</b><span>658K</span></a>
+  </div>
+</section>
+
+<section class="w" style="padding-top:0">
+  <div class="rv">
+    <span class="ey">Selected work</span>
+    <h2>Shot, edited and <em>posted by us.</em></h2>
+  </div>
+  <div class="work rv sw">
+    <figure><video muted loop playsinline preload="metadata" poster="capri-poster.jpg" src="capri.mp4"></video><figcaption><b>Capri</b><span>800K views</span></figcaption></figure>
+    <figure><video muted loop playsinline preload="metadata" poster="montecarlo-poster.jpg" src="montecarlo.mp4"></video><figcaption><b>Monte-Carlo</b><span>Hôtel de Paris</span></figcaption></figure>
+    <figure><video muted loop playsinline preload="metadata" poster="villa-poster.jpg" src="villa.mp4"></video><figcaption><b>Villa</b><span>163K views</span></figcaption></figure>
+    <figure><img src="results-fs.jpg" alt="Four Seasons insights" loading="lazy"><figcaption><b>Four Seasons</b></figcaption></figure>
+  </div>
+</section>
+
+<section class="w" style="padding-top:0">
+  <div class="ask rv">
+    <span class="ey">The collaboration</span>
+    <h2>Experience the Hub, <em>and capture it.</em></h2>
+    <p class="lead">We're in Dubai from 16 to 24 November with our cameraman. We'd love to experience Longevity Hub and turn it into content for our pages and yours. This is a first idea: we're curious about the possibilities and whether you're open to it, and happy to shape it around what works for you.</p>
+    <div class="fd"><img src="ig-otto.jpg" alt="Otto Rothfusz"><div><b>Otto Rothfusz</b><span>Founder, The Finest Media</span></div></div>
+    <div class="links">
+      <a class="cta" href="https://www.instagram.com/ottorothfusz" target="_blank" rel="noopener">@ottorothfusz <span>↗</span></a>
+      <a class="cta g" href="https://thefinestmedia.com" target="_blank" rel="noopener">thefinestmedia.com <span>↗</span></a>
+    </div>
+  </div>
+  <footer>The Finest Media · Prepared for Longevity Hub Dubai · Reference imagery © Longevity Hub by Clinique La Prairie</footer>
+</section>
+
+<script>
+(function(){
+  var vs=[].slice.call(document.querySelectorAll('video'));
+  function kick(v){v.muted=true;v.defaultMuted=true;v.playsInline=true;v.setAttribute('muted','');v.setAttribute('playsinline','');if(v.paused){var p=v.play();if(p&&p.catch)p.catch(function(){})}}
+  var rv=[].slice.call(document.querySelectorAll('.rv'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)kick(e.target);else e.target.pause()})},{threshold:.2});
+    vs.forEach(function(v){io.observe(v)});
+    var ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target)}})},{threshold:.06});
+    rv.forEach(function(el){ro.observe(el)});
+  }else{vs.forEach(kick);rv.forEach(function(el){el.classList.add('in')})}
+  function all(){vs.forEach(function(v){var r=v.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth)kick(v)})}
+  ['load','touchstart','pointerdown','scroll'].forEach(function(ev){addEventListener(ev,all,{passive:true,once:ev!=='scroll'})});
+  document.querySelectorAll('.sw').forEach(function(r){r.addEventListener('scroll',all,{passive:true})});
+  all();
+})();
+</script>
+</body></html>
